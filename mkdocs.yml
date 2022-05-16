@@ -17,6 +17,8 @@ nav:
         - Working: businesses/work/working.md
     - Market:
       - Prices: market/prices.md
+    - Premium:
+      - Premium Perks: premium/premium.md
 theme:
   name: material
     
