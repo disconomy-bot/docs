@@ -3,6 +3,16 @@ site_url: https://disconomy.app/docs
 nav:
     - Home: index.md
     - Getting Started: getting-started.md
+    - Businesses: businesses
+      - Partnerships: businesses/partnerships
+        - Impacts/Benifits: businesses/partnerships/impacts-benifits.md
+      - Setup/Usage: businesses/setup-usage
+        - Factory: businesses/setup-usage/factory.md
+        - Mine: businesses/setup-usage/mine.md
+        - Power Plant: businesses/setup-usage/power-plant.md
+      - Work: businesses/work
+        - Jobs: businesses/work/jobs.md
+        - Working: businesses/work/working.md
 theme:
   name: material
     
