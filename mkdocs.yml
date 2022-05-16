@@ -3,3 +3,6 @@ site_url: https://disconomy.app/docs
 nav:
     - Home: index.md
     - Getting Started: getting-started.md
+theme:
+  name: material
+    
