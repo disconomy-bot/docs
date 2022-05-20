@@ -32,3 +32,9 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: On this page
