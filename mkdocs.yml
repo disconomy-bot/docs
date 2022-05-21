@@ -1,5 +1,6 @@
 site_name: Disconomy Docs
 site_url: https://disconomy.app/docs
+
 nav:
     - Home: index.md
     - Getting Started: 
@@ -19,20 +20,23 @@ nav:
       - Prices: market/prices.md
     - Premium:
       - Premium Perks: premium/premium.md
+
 theme:
   name: material
   palette:
-    - primary: light blue
     - media: "(prefers-color-scheme: light)" 
       scheme: default
+      primary: light blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)" 
       scheme: slate
+      primary: light blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
 plugins:
   - search
 markdown_extensions:
