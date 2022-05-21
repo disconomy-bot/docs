@@ -9,7 +9,7 @@ The `e!jobs available {position}` shows you all the available jobs with the titl
 
 ### Applying For A Job
 
-The steady way to make money, is of course, a job. You can apply for a job by using the `e!job apply {position} {business}` command, like is shown below. Please note, in this example, I am applying for laborer, the most basic job, but all the jobs are: `laborer, staffmanager, supplymanager, financier`. Also, I apply for a job at the company standard oil, but you can apply for a job at any company a user has made. Also, remember the business you apply to has to accept your application, so wait to run the `e!work` command until you know you have been accepted. To check your job, run the `e!job` command.
+The steady way to make money, is of course, a job. You can apply for a job by using the `e!job apply {position} {business}` command. All the job positions are: `laborer, staffmanager, supplymanager, financier`. You may apply for a job at any company a user has made. Also, remember the business you apply to has to accept your application, so wait to run the `e!work` command until you know you have been accepted. To check your job, run the `e!job` command.
 ![Jobs Available Example Image](https://cdn.discordapp.com/attachments/815628413733306409/977666451995512872/unknown.png)
 
 ## Section 2: Investments
