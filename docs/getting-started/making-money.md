@@ -5,7 +5,7 @@ Welcome to the Making Money page of the docs! In this section, I will cover how 
 ## Section 1: Jobs
 
 ### Finding A Job
-The `e!jobs available {position}` shows you all the available jobs with the title you want. It also shows you the wage the company pays. Please note, you are not automatically accepted
+The `e!jobs available {position}` shows you all the available jobs with the title you want. It also shows you the wage the company pays. Please note, you are not automatically accepted to the position, so don't run the `e!work` command until you are sure you are!
 
 ### Applying For A Job
 
