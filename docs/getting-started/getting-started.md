@@ -33,4 +33,12 @@ To see your balance, it's very simple! Run the `e!bal` command to see how much m
 
 When first using the bot, you are automatically in the central bank. All money in the central bank has a -4% interest on it, and when your starting and may not have a lot of money, that can be a lot. To join a private bank, run the `e!bank join {bank}`. There may be a signup fee, but we suggest paying it, because you will not lose money from storing it in the bank.
 
+#### Deposit/Withdraw
+
+To deposit money from your wallet, use the `e!dep {amount}` command.
+`{amount}` can be a number, half, or all.
+
+To withdraw money from your bank, use the `e!with {amount}` command.
+`{amount}` can be a number, half, or all as well
+
 **This covers all of the basic features of the bot, please go to [this](/docs/getting-started/making-money) page to learn how to make money!**
