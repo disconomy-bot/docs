@@ -2,7 +2,7 @@
 
 Welcome to the Getting Started page of the docs! In this section, I will cover how to begin with the bot and start making money!
 
-*Remeber, Disconomy's economy is global!*
+*Remember, Disconomy's economy is global!*
 
 Disconomy is a unique, decentralized economy bot where you, the users, control the market. It has a vast array of features ranging from investing in the stock market (with real, live data) to creating your own factory.
 
