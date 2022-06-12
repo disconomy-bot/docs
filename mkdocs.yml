@@ -1,5 +1,5 @@
 site_name: Disconomy Docs
-site_url: https://disconomy.app/docs
+site_url: https://distortedpumpkin.github.io/disconomy-docs
 
 nav:
     - Home: index.md
