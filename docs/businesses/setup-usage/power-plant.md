@@ -61,5 +61,5 @@ When working at a power plant, you'll be greeted with a grid of 9. Your task is 
 ---
 
 
-**This concludes all of the necessary information about power plants! Head to [this](/docs/businesses/partnerships/impacts-benefits) page if you want to learn about partnerships and its benefits for businesses!**
+**This concludes all of the necessary information about power plants! Head to [this](disconomy-docs/businesses/partnerships/impacts-benefits/) page if you want to learn about partnerships and its benefits for businesses!**
 
