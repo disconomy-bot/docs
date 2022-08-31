@@ -28,10 +28,10 @@ Welcome to the Power Plant business page. Everything to know about power plants 
 
 
 ## **Section 2: Creation and Operation**
-To create a power plant, you will first need **$110,000** and another ~**$7,500** to purchase your first **Oil Burner or Uranium Burner** (More info about Burners later). If you're a [Premium User](/docs/premium/premium), you will be able to set the plants production type to `nuclear` with the command `e!plant produce <power_type> <plant_name>`. 
+To create a power plant, you will first need **$55,000** and another ~**$7,500** to purchase your first **Oil Burner or Uranium Burner** (More info about Burners later). If you're a [Premium User](/docs/premium/premium), you will be able to set the plants production type to `nuclear` with the command `e!plant produce <power_type> <plant_name>`. 
 
 ### **Creation**
-- Once you have **$110,000** and are ready to create a power plant, simply run the command `e!plant create {name}`.
+- Once you have **$55,000** and are ready to create a power plant, simply run the command `e!plant create {name}`.
   **Again, please keep in mind that once a power plants name has been set, it cannot be changed.**
 ---
 ### **Operation** (Electric Plants)
