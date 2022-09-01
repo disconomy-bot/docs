@@ -52,7 +52,7 @@ If you want your business to show up in the `e!job list` command, you must set a
 
 You can use the `e!business edit-config` command to set it so that users automatically get a job if they apply for the laborer position. It is recommended to use this command as a slash command.
 
-Ex. `/business edit-config anyone can join true helpful business`
+Ex. `/business edit-config anyone_can_join true YOUR BUSINESS NAME`
 
 ## Section 3: Working
 
