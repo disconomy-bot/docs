@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Economy Setup </title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;"">Global Economy Setup</h1>
+    </header>
+
+    <section id="initial-setup">
+        <h2>Initial Setup</h2>
+        <p>Run <code>/guild setup</code> to set up your guild so that members can set your guild as their primary guild and work for your guild. Be prepared to create a unique ticker for your guild (a 4-6 character identifier) to identify and represent your guild.</p>
+    </section>
+
+    <section id="work-setup">
+        <h2>Work Setup</h2>
+        <p>After running the initial <code>/guild setup</code>, members can work for your guild to allow the guild to use labor hours to produce factory goods.</p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><code>/guild wage set-default</code>: Set the default member wage.</li>
+            <li><code>/guild wage set</code>: Set the wage for an individual user.</li>
+            <li><code>/guild wage set-role</code>: If your guild is premium, set role-based wages.</li>
+        </ul>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Ensure fair wages to motivate members to work effectively for the guild.</li>
+            <li>Monitor and adjust wages periodically based on guild performance and needs.</li>
+        </ul>
+    </section>
+    <section id="item-production">
+        <h2>Item Production</h2>
+        <p>Using the raw materials purchased or contracted from members, along with labor hours produced by members from working, you can produce manufactured goods via <code>/guild produce</code>.</p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><code>/item</code>: View the materials and requirements for producing a specific good.</li>
+            <li><code>/contract create</code>: Create a contract to have members retrieve items for your guild.</li>
+        </ul>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Plan production carefully to maximize efficiency and minimize waste of resources.</li>
+            <li>Use contracts to streamline the collection of necessary raw materials.</li>
+        </ul>
+    </section>
+
+    <section id="guild-shop">
+        <h2>Guild Shop</h2>
+        <p>You can create custom items and add them to your guild shop. You can also allow members to purchase roles through the guild shop. To do either, run <code>/guild shop create-item</code>.</p>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Design items that are valuable and appealing to your members.</li>
+            <li>Regularly update the shop to keep it engaging for your guild.</li>
+        </ul>
+    </section>
+
+    <section id="chat-money">
+        <h2>Configuring Work Features</h2>
+        <p>Setting up work-related features involves enabling members to earn and manage currency. Here’s how to get started:</p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><span class="command">/guild chatmoney set-rate &lt;rate&gt;</span>: Set the earning rate for members based on activity.</li>
+            <li><span class="command">/guild chatmoney view-rate</span>: View the current earning rate.</li>
+            <li><span class="command">/guild chatmoney add-whitelist &lt;channel&gt;</span>: Specify channels where members can earn currency.</li>
+            <li><span class="command">/guild chatmoney add-blacklist &lt;channel&gt;</span>: Exclude specific channels from earning currency.</li>
+        </ul>
+
+        <h3>Example</h3>
+        <p>To set the earning rate to 5 coins per message:</p>
+        <code>/guild chatmoney set-rate 5</code>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Use blacklists and whitelists to control where currency can be earned, ensuring fairness and minimizing spam abuse.</li>
+            <li>Monitor activity periodically to adjust rates as needed.</li>
+        </ul>
+    </section>
+</body>
+</html>
+
+
+

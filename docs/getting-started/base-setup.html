@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disconomy Bot Documentation - Base Setup</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Disconomy Bot Documentation - Base Setup</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome to the setup guide for <strong>Disconomy</strong>. This guide will walk you through setting up role permissions and preparing your server for effective use of the bot's work-related features.</p>
+    </section>
+
+    <section id="role-permissions">
+        <h2>Setting Up Role Permissions</h2>
+        <p>Role permissions in Disconomy allow you to designate specific roles to manage guild economy features. Follow these steps to configure role permissions:</p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><code>/guild rolepermissions set &lt;role&gt;</code>: Assign a role with permissions to manage the guild economy.</li>
+            <li><code>/guild rolepermissions view</code>: View all roles currently assigned with permissions.</li>
+            <li><code>/guild rolepermissions remove &lt;role&gt;</code>: Revoke permissions from a specific role.</li>
+        </ul>
+
+        <h3>Example:</h3>
+        <p>To give the "Manager" role permission, use:</p>
+        <code>/guild rolepermissions set Economy Manager &lt;manage_all: boolean&gt; &lt;manage_funds: boolean&gt; &lt;manage_workers: boolean&gt;</code>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Ensure only trusted roles have these permissions to avoid unauthorized changes to the economy setup.</li>
+            <li>Regularly review the permissions using <code>/guild rolepermissions view</code>.</li>
+            <img src="https://media.discordapp.net/attachments/769746540096389181/1323389940809203733/image.png?ex=6776f96d&is=6775a7ed&hm=6acf045ff5963a98a68c2664160c0334f02e8ba94776b2f62e26c9ef21dbf4ca&format=webp&quality=lossless&width=1440&height=976&" style="width: 300px; height: 200px;">
+        </ul> 
+    </section>
+
+    <section id="work-setup">
+        <h2>Work Setup</h2>
+        <p>After running the initial <code>/guild setup</code>, members can work for your guild to allow the guild to use labor hours to produce factory goods. Go here to learn how to setup your guild: <a href = ""> guild setup</a></p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><code>/guild wage set-default</code>: Set the default member wage.</li>
+            <li><code>/guild wage set</code>: Set the wage for an individual user.</li>
+            <li><code>/guild wage set-role</code>: If your guild is premium, set role-based wages.</li>
+        </ul>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Ensure fair wages to motivate members to work effectively for the guild.</li>
+            <li>Monitor and adjust wages periodically based on guild performance and needs.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
