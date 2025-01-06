@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Economy Setup </title>
+    <title>Economy Setup </title>
 </head>
 <body>
     <header>
-        <h1 style="text-align: center;"">Global Economy Setup</h1>
+        <h1 style="text-align: center;"">Economy Setup</h1>
     </header>
 
     <section id="initial-setup">
@@ -52,7 +52,7 @@
     <section id="guild-shop">
         <h2>Guild Shop</h2>
         <p>You can create custom items and add them to your guild shop. You can also allow members to purchase roles through the guild shop. To do either, run <code>/guild shop create-item</code>.</p>
-
+        <img src="https://media.discordapp.net/attachments/769746540096389181/1323390550812131388/image.png?ex=677c3ffe&is=677aee7e&hm=9f79287786578dffff8396f686916bb1124655ad128641fc332f963d498f0fa1&format=webp&quality=lossless&width=1576&height=1070&" style="width: 500px; height:300px;">
         <h3>Tips</h3>
         <ul>
             <li>Design items that are valuable and appealing to your members.</li>
@@ -82,8 +82,55 @@
             <li>Monitor activity periodically to adjust rates as needed.</li>
         </ul>
     </section>
+
+    <section id="audit-logs">
+        <h2>Audit Logs</h2>
+        <p>Keep track of guild activities with audit logs. Configure the logs to record important events for transparency and management.</p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><code>/guild auditlog set-channel</code>: Set the channel where audit logs will be posted.</li>
+            <li><code>/guild auditlog set-events</code>: Configure which events to log. Options include: <code>all</code>, <code>transfer</code>, <code>shop_purchase</code>, <code>currency_exchange</code>, and <code>global_sale</code>.</li>
+            <li><code>/guild auditlog view-channel</code>: View the current channel for audit logs.</li>
+            <li><code>/guild auditlog view-events</code>: View the currently configured events to log.</li>
+        </ul>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Regularly review audit logs to ensure proper use of guild resources and identify any suspicious activity.</li>
+            <li>Limit log access to trusted members to maintain confidentiality.</li>
+        </ul>
+    </section>
+
+    <section id="currency-exchange">
+    <h3>Currency Exchange</h3>
+        <p>Facilitate the conversion of local guild currency to global economy currency and vice versa.</p>
+        <ul>
+            <li>
+                <strong><code>/guild currency-exchange exchange</code></strong>: Exchange your server currency to Global Disconomy currency or vice versa.
+                <ul>
+                    <li><strong>Usage:</strong> Specify the amount and direction of exchange. Example: <code>/guild currency-exchange exchange [IN -> OUT] || [OUT -> IN]</code>.</li>
+                </ul>
+            </li>
+            <li>
+                <strong><code>/guild currency-exchange set-exchange-rate</code></strong>: Set the guild currency exchange rate (global to local and local to global).
+                <ul>
+                    <li><strong>Usage:</strong> Define both rates explicitly. Example: <code>/guild currency-exchange set-exchange-rate [IN => OUT] || [OUT => IN]</code>.</li>
+                </ul>
+            </li>
+            <li>
+                <strong><code>/guild currency-exchange view</code></strong>: View the guild currency exchange rates.
+                <ul>
+                    <li><strong>Usage:</strong> No parameters needed; simply run the command to view rates.</li>
+                </ul>
+            </li>
+            <li>
+                <strong><code>/guild fund amount</code></strong>: Donate global currency to the guild bank to be used by the guild.
+                <ul>
+                    <li><strong>Usage:</strong> Specify the donation amount. Example: <code>/guild fund 500</code>.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
-
-
-
