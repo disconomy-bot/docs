@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disconomy Bot Documentation - Base Setup</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Disconomy Bot Documentation - Base Setup</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Welcome to the setup guide for <strong>Disconomy</strong>. This guide will walk you through setting up role permissions and preparing your server for effective use of the bot's work-related features.</p>
+    </section>
+
+    <section id="role-permissions">
+        <h2>Setting Up Role Permissions</h2>
+        <p>Role permissions in Disconomy allow you to designate specific roles to manage guild economy features. Follow these steps to configure role permissions:</p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><code>/guild rolepermissions set &lt;role&gt;</code>: Assign a role with permissions to manage the guild economy.</li>
+            <li><code>/guild rolepermissions view</code>: View all roles currently assigned with permissions.</li>
+            <li><code>/guild rolepermissions remove &lt;role&gt;</code>: Revoke permissions from a specific role.</li>
+        </ul>
+
+        <h3>Example:</h3>
+        <p>To give the "Manager" role permission, use:</p>
+        <code>/guild rolepermissions set Economy Manager &lt;manage_all: boolean&gt; &lt;manage_funds: boolean&gt; &lt;manage_workers: boolean&gt;</code>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Ensure only trusted roles have these permissions to avoid unauthorized changes to the economy setup.</li>
+            <li>Regularly review the permissions using <code>/guild rolepermissions view</code>.</li>
+            <img src="https://media.discordapp.net/attachments/769746540096389181/1323389940809203733/image.png?ex=67a7c0ed&is=67a66f6d&hm=6064cd2235b031e1c51bbaedff9e3727da6d6e429b730025c041e44ef36b24ab&format=webp&quality=lossless&width=1440&height=976&" style="width: 300px; height: 200px;">
+        </ul> 
+    </section>
+
+    <section id="work-setup">
+        <h3>Work Setup</h3>
+        <p>After running the initial <code>/guild setup</code>, members can work for your guild to allow the guild to use labor hours to produce factory goods. Go here to learn how to setup your guild: <a href = "/docs/Guild/economy-setup/global-economy.html"> guild setup</a></p>
+
+        <h3>Commands</h3>
+        <ul>
+            <li><code>/guild wage set-default</code>: Set the default member wage.</li>
+            <li><code>/guild wage set</code>: Set the wage for an individual user.</li>
+            <li><code>/guild wage set-role</code>: If your guild is premium, set role-based wages.</li>
+        </ul>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Ensure fair wages to motivate members to work effectively for the guild.</li>
+            <li>Monitor and adjust wages periodically based on guild performance and needs.</li>
+        </ul>
+    </section>
+
+    <h3>Gambling & Casino Setup</h3>
+        <p>Guild members can engage in various gambling activities, which now use local currency and can be configured by guild admins.</p>
+    <section id="casino-setup">
+        <strong><code>/guild config set-casino-config</code></strong>: Configure betting limits and enable or disable specific gambling commands.
+        <ul>
+            <strong> Parameters: </strong>
+            <li><strong>bet_limit:</strong> Set a maximum bet limit for all gambling activities.</li>
+            <li><strong>all:</strong> Enable or disable all gambling games at once.</li>
+            <li><strong>blackjack:</strong> Toggle whether blackjack is available for members.</li>
+            <li><strong>roulette:</strong> Toggle roulette availability in the guild.</li>
+            <li><strong>poker:</strong> Enable or disable poker (once released).</li>
+            <li><strong>slots:</strong> Enable or disable slot machines (once released).</li>
+        </ul>
+        <p><strong>Usage Example:</strong> <code>/guild config set-casino-config bet_limit:1000 blackjack:True roulette:False poker:True slots:False</code></p>
+        <img src="https://cdn.discordapp.com/attachments/1324116631831445527/1337542399789891594/TEW1OD9BmF.png?ex=67a7d2ee&is=67a6816e&hm=3ef10d9f2510cf2ad3c6c51107d83ced0c77fb5e17ddd13bf65a9943e1a6eb13&">
+        <ul>
+            <li><strong>Tips:</strong> Adjust limits based on your guild’s economy to maintain balance and prevent excessive betting.</li>
+            <li>Disable specific games if you want to limit gambling activities within your guild.</li>
+        </ul>
+
+    <section id="guild-config">
+        <h3>Guild Config</h3>
+        <p>Guild admins can configure various aspects of their guild economy using the following commands:</p>
+        <ul>
+            <li>
+                <strong><code>/guild config set-currency-symbol &lt;currency&gt;</code></strong>: Set the local economy currency symbol. It can also be emojis!
+                <ul>
+                    <li><strong>Usage:</strong> Define the currency symbol that will represent the guild’s economy. Example: <code>/guild config set-currency-symbol $</code>.</li>
+                    <img src="https://cdn.discordapp.com/attachments/1324116631831445527/1337545043820417024/EZTTzSzJ7S.png?ex=67a7d564&is=67a683e4&hm=4bf47779b54fbe90ad8dbb80e3e5009c1d2250b00677837145fa837daa2b44c6&"/>
+                </ul>
+            </li>
+            <li>
+                <strong><code>/guild config set-start-balance &lt;balance&gt;</code></strong>: Set the balance that members start with.
+                <ul>
+                    <li><strong>Usage:</strong> Specify the starting balance for new members. Example: <code>/guild config set-start-balance 1000</code>.</li>
+                    <img src="https://cdn.discordapp.com/attachments/1324116631831445527/1337545471618584607/oxemFIpePe.png?ex=67a7d5ca&is=67a6844a&hm=b426e9e8ce5df9d2532a5c8fb2bdb26650c93a148051abe6a1fce56b42f50ae2&"/>
+                </ul>
+            </li>
+            <li>
+                <strong><code>/guild config show-leaderboard-position &lt;show&gt;</code></strong>: Configure whether leaderboard positions are shown in balances.
+                <ul>
+                    <li><strong>Usage:</strong> Toggle leaderboard position visibility. Example: <code>/guild config show-leaderboard-position True</code>.</li>
+                    <img src="https://cdn.discordapp.com/attachments/1324116631831445527/1337545651734581248/Ics9BJLOkX.png?ex=67a7d5f5&is=67a68475&hm=bab882e120187d69ba519bc498792a1241c2f3dea8cf2ec367b12a178525f2fa&"/>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
